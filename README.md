@@ -72,6 +72,10 @@
      real_venta DECIMAL(10, 2) NOT NULL,
      peso_compra DECIMAL(10, 2) NOT NULL,
      peso_venta DECIMAL(10, 2) NOT NULL,
+     yen_compra DECIMAL(10, 2) NOT NULL,
+     yen_venta DECIMAL(10, 2) NOT NULL,
+     euro_compra DECIMAL(10, 2) NOT NULL,
+     euro_venta DECIMAL(10, 2) NOT NULL,
      UNIQUE (fecha)
    );
  ```
