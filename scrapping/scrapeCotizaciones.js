@@ -22,7 +22,7 @@ const getMonthNumber = (monthName) => {
 
 const URL = "https://www.dnit.gov.py/web/portal-institucional/cotizaciones";
 
-const scrapeCotizaciones = async () => {
+export const scrapeCotizaciones = async () => {
   try {
     // 1. Realizar la solicitud HTTP
     const { data } = await axios.get(URL);
@@ -80,6 +80,3 @@ const scrapeCotizaciones = async () => {
     console.error("Error al realizar el scraping:", error.message);
   }
 };
-
-// Ejecutar el scraping
-scrapeCotizaciones();
