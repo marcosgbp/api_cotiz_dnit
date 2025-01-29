@@ -46,7 +46,7 @@
 ## **Instalación**
 1. **Clona este repositorio:**
 ```bash
-   git clone https://github.com/tu_usuario/api_cotiz_dnit.git
+   git clone https://github.com/marcosgbp/api_cotiz_dnit.git
    cd api_cotiz_dnit
 ```
 2. **Instala las dependencias:**
